@@ -7,7 +7,7 @@ iOS 广告滚动效果
     [self.view addSubview:autoScroll];
     [autoScroll beginScroll];
     
-####还可以获取广告点击的index和文字
+#### 还可以获取广告点击的index和文字
     autoScroll.adActionBlock = ^(NSInteger index, NSString *adStr) {
         NSLog(@"-----%ld,-----%@",index,adStr);
     };
