@@ -1,6 +1,6 @@
 //
-//  YJAutoScrollLabel.h
-//  YJAutoScrollLabel
+//  TMAutoScrollLabel.h
+//  TMAutoScrollLabel
 //
 //  Created by edward lannister on 2018/7/18.
 //  Copyright © 2018年 edward lannister. All rights reserved.
@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSUInteger, YJScrollDirectionType) {
-    YJScrollDirectionTypeTop = 0,//向上
-    YJScrollDirectionTypeDown,//向下
+typedef NS_ENUM(NSUInteger, TMScrollDirectionType) {
+    TMScrollDirectionTypeTop = 0,//向上
+    TMScrollDirectionTypeDown,//向下
 };
 
-@interface YJAutoScrollLabel : UIView
+@interface TMAutoScrollLabel : UIView
 
 
 /**
@@ -21,9 +21,9 @@ typedef NS_ENUM(NSUInteger, YJScrollDirectionType) {
  */
 @property (nonatomic, assign) NSTimeInterval time;
 /**
- 滚动的方向 默认是YJScrollDirectionTypeTop
+ 滚动的方向 默认是TMScrollDirectionTypeTop
  */
-@property (nonatomic, assign) YJScrollDirectionType directionType;
+@property (nonatomic, assign) TMScrollDirectionType directionType;
 /**
  广告文字大小
  */

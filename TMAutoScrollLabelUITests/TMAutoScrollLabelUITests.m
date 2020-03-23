@@ -1,6 +1,6 @@
 //
-//  YJAutoScrollLabelUITests.m
-//  YJAutoScrollLabelUITests
+//  TMAutoScrollLabelUITests.m
+//  TMAutoScrollLabelUITests
 //
 //  Created by edward lannister on 2018/7/18.
 //  Copyright © 2018年 edward lannister. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface YJAutoScrollLabelUITests : XCTestCase
+@interface TMAutoScrollLabelUITests : XCTestCase
 
 @end
 
-@implementation YJAutoScrollLabelUITests
+@implementation TMAutoScrollLabelUITests
 
 - (void)setUp {
     [super setUp];

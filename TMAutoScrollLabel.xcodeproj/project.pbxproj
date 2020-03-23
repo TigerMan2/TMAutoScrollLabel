@@ -13,9 +13,9 @@
 		11D89C3020FF273A000E5164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D89C2F20FF273A000E5164 /* Assets.xcassets */; };
 		11D89C3320FF273A000E5164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D89C3120FF273A000E5164 /* LaunchScreen.storyboard */; };
 		11D89C3620FF273B000E5164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D89C3520FF273B000E5164 /* main.m */; };
-		11D89C4020FF273B000E5164 /* YJAutoScrollLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D89C3F20FF273B000E5164 /* YJAutoScrollLabelTests.m */; };
-		11D89C4B20FF273B000E5164 /* YJAutoScrollLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D89C4A20FF273B000E5164 /* YJAutoScrollLabelUITests.m */; };
-		11D89C5B20FF277B000E5164 /* YJAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D89C5A20FF277B000E5164 /* YJAutoScrollLabel.m */; };
+		11D89C4020FF273B000E5164 /* TMAutoScrollLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D89C3F20FF273B000E5164 /* TMAutoScrollLabelTests.m */; };
+		11D89C4B20FF273B000E5164 /* TMAutoScrollLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D89C4A20FF273B000E5164 /* TMAutoScrollLabelUITests.m */; };
+		11D89C5B20FF277B000E5164 /* TMAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D89C5A20FF277B000E5164 /* TMAutoScrollLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11D89C2320FF2738000E5164 /* YJAutoScrollLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJAutoScrollLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D89C2320FF2738000E5164 /* TMAutoScrollLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMAutoScrollLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D89C2620FF2738000E5164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11D89C2720FF2738000E5164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		11D89C2920FF2738000E5164 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -46,14 +46,14 @@
 		11D89C3220FF273A000E5164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11D89C3420FF273B000E5164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11D89C3520FF273B000E5164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		11D89C3B20FF273B000E5164 /* YJAutoScrollLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJAutoScrollLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11D89C3F20FF273B000E5164 /* YJAutoScrollLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAutoScrollLabelTests.m; sourceTree = "<group>"; };
+		11D89C3B20FF273B000E5164 /* TMAutoScrollLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMAutoScrollLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D89C3F20FF273B000E5164 /* TMAutoScrollLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAutoScrollLabelTests.m; sourceTree = "<group>"; };
 		11D89C4120FF273B000E5164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11D89C4620FF273B000E5164 /* YJAutoScrollLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJAutoScrollLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11D89C4A20FF273B000E5164 /* YJAutoScrollLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAutoScrollLabelUITests.m; sourceTree = "<group>"; };
+		11D89C4620FF273B000E5164 /* TMAutoScrollLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMAutoScrollLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D89C4A20FF273B000E5164 /* TMAutoScrollLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAutoScrollLabelUITests.m; sourceTree = "<group>"; };
 		11D89C4C20FF273B000E5164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11D89C5920FF277B000E5164 /* YJAutoScrollLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJAutoScrollLabel.h; sourceTree = "<group>"; };
-		11D89C5A20FF277B000E5164 /* YJAutoScrollLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAutoScrollLabel.m; sourceTree = "<group>"; };
+		11D89C5920FF277B000E5164 /* TMAutoScrollLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAutoScrollLabel.h; sourceTree = "<group>"; };
+		11D89C5A20FF277B000E5164 /* TMAutoScrollLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAutoScrollLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +84,9 @@
 		11D89C1A20FF2738000E5164 = {
 			isa = PBXGroup;
 			children = (
-				11D89C2520FF2738000E5164 /* YJAutoScrollLabel */,
-				11D89C3E20FF273B000E5164 /* YJAutoScrollLabelTests */,
-				11D89C4920FF273B000E5164 /* YJAutoScrollLabelUITests */,
+				11D89C2520FF2738000E5164 /* TMAutoScrollLabel */,
+				11D89C3E20FF273B000E5164 /* TMAutoScrollLabelTests */,
+				11D89C4920FF273B000E5164 /* TMAutoScrollLabelUITests */,
 				11D89C2420FF2738000E5164 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,17 +94,17 @@
 		11D89C2420FF2738000E5164 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11D89C2320FF2738000E5164 /* YJAutoScrollLabel.app */,
-				11D89C3B20FF273B000E5164 /* YJAutoScrollLabelTests.xctest */,
-				11D89C4620FF273B000E5164 /* YJAutoScrollLabelUITests.xctest */,
+				11D89C2320FF2738000E5164 /* TMAutoScrollLabel.app */,
+				11D89C3B20FF273B000E5164 /* TMAutoScrollLabelTests.xctest */,
+				11D89C4620FF273B000E5164 /* TMAutoScrollLabelUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11D89C2520FF2738000E5164 /* YJAutoScrollLabel */ = {
+		11D89C2520FF2738000E5164 /* TMAutoScrollLabel */ = {
 			isa = PBXGroup;
 			children = (
-				11D89C5820FF2757000E5164 /* YJAutoScrollLabel */,
+				11D89C5820FF2757000E5164 /* TMAutoScrollLabel */,
 				11D89C2620FF2738000E5164 /* AppDelegate.h */,
 				11D89C2720FF2738000E5164 /* AppDelegate.m */,
 				11D89C2920FF2738000E5164 /* ViewController.h */,
@@ -115,42 +115,42 @@
 				11D89C3420FF273B000E5164 /* Info.plist */,
 				11D89C3520FF273B000E5164 /* main.m */,
 			);
-			path = YJAutoScrollLabel;
+			path = TMAutoScrollLabel;
 			sourceTree = "<group>";
 		};
-		11D89C3E20FF273B000E5164 /* YJAutoScrollLabelTests */ = {
+		11D89C3E20FF273B000E5164 /* TMAutoScrollLabelTests */ = {
 			isa = PBXGroup;
 			children = (
-				11D89C3F20FF273B000E5164 /* YJAutoScrollLabelTests.m */,
+				11D89C3F20FF273B000E5164 /* TMAutoScrollLabelTests.m */,
 				11D89C4120FF273B000E5164 /* Info.plist */,
 			);
-			path = YJAutoScrollLabelTests;
+			path = TMAutoScrollLabelTests;
 			sourceTree = "<group>";
 		};
-		11D89C4920FF273B000E5164 /* YJAutoScrollLabelUITests */ = {
+		11D89C4920FF273B000E5164 /* TMAutoScrollLabelUITests */ = {
 			isa = PBXGroup;
 			children = (
-				11D89C4A20FF273B000E5164 /* YJAutoScrollLabelUITests.m */,
+				11D89C4A20FF273B000E5164 /* TMAutoScrollLabelUITests.m */,
 				11D89C4C20FF273B000E5164 /* Info.plist */,
 			);
-			path = YJAutoScrollLabelUITests;
+			path = TMAutoScrollLabelUITests;
 			sourceTree = "<group>";
 		};
-		11D89C5820FF2757000E5164 /* YJAutoScrollLabel */ = {
+		11D89C5820FF2757000E5164 /* TMAutoScrollLabel */ = {
 			isa = PBXGroup;
 			children = (
-				11D89C5920FF277B000E5164 /* YJAutoScrollLabel.h */,
-				11D89C5A20FF277B000E5164 /* YJAutoScrollLabel.m */,
+				11D89C5920FF277B000E5164 /* TMAutoScrollLabel.h */,
+				11D89C5A20FF277B000E5164 /* TMAutoScrollLabel.m */,
 			);
-			path = YJAutoScrollLabel;
+			path = TMAutoScrollLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11D89C2220FF2738000E5164 /* YJAutoScrollLabel */ = {
+		11D89C2220FF2738000E5164 /* TMAutoScrollLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11D89C4F20FF273B000E5164 /* Build configuration list for PBXNativeTarget "YJAutoScrollLabel" */;
+			buildConfigurationList = 11D89C4F20FF273B000E5164 /* Build configuration list for PBXNativeTarget "TMAutoScrollLabel" */;
 			buildPhases = (
 				11D89C1F20FF2738000E5164 /* Sources */,
 				11D89C2020FF2738000E5164 /* Frameworks */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = YJAutoScrollLabel;
+			name = TMAutoScrollLabel;
 			productName = YJAutoScrollLabel;
-			productReference = 11D89C2320FF2738000E5164 /* YJAutoScrollLabel.app */;
+			productReference = 11D89C2320FF2738000E5164 /* TMAutoScrollLabel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		11D89C3A20FF273B000E5164 /* YJAutoScrollLabelTests */ = {
+		11D89C3A20FF273B000E5164 /* TMAutoScrollLabelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11D89C5220FF273B000E5164 /* Build configuration list for PBXNativeTarget "YJAutoScrollLabelTests" */;
+			buildConfigurationList = 11D89C5220FF273B000E5164 /* Build configuration list for PBXNativeTarget "TMAutoScrollLabelTests" */;
 			buildPhases = (
 				11D89C3720FF273B000E5164 /* Sources */,
 				11D89C3820FF273B000E5164 /* Frameworks */,
@@ -178,14 +178,14 @@
 			dependencies = (
 				11D89C3D20FF273B000E5164 /* PBXTargetDependency */,
 			);
-			name = YJAutoScrollLabelTests;
+			name = TMAutoScrollLabelTests;
 			productName = YJAutoScrollLabelTests;
-			productReference = 11D89C3B20FF273B000E5164 /* YJAutoScrollLabelTests.xctest */;
+			productReference = 11D89C3B20FF273B000E5164 /* TMAutoScrollLabelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		11D89C4520FF273B000E5164 /* YJAutoScrollLabelUITests */ = {
+		11D89C4520FF273B000E5164 /* TMAutoScrollLabelUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11D89C5520FF273B000E5164 /* Build configuration list for PBXNativeTarget "YJAutoScrollLabelUITests" */;
+			buildConfigurationList = 11D89C5520FF273B000E5164 /* Build configuration list for PBXNativeTarget "TMAutoScrollLabelUITests" */;
 			buildPhases = (
 				11D89C4220FF273B000E5164 /* Sources */,
 				11D89C4320FF273B000E5164 /* Frameworks */,
@@ -196,9 +196,9 @@
 			dependencies = (
 				11D89C4820FF273B000E5164 /* PBXTargetDependency */,
 			);
-			name = YJAutoScrollLabelUITests;
+			name = TMAutoScrollLabelUITests;
 			productName = YJAutoScrollLabelUITests;
-			productReference = 11D89C4620FF273B000E5164 /* YJAutoScrollLabelUITests.xctest */;
+			productReference = 11D89C4620FF273B000E5164 /* TMAutoScrollLabelUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 11D89C1E20FF2738000E5164 /* Build configuration list for PBXProject "YJAutoScrollLabel" */;
+			buildConfigurationList = 11D89C1E20FF2738000E5164 /* Build configuration list for PBXProject "TMAutoScrollLabel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11D89C2220FF2738000E5164 /* YJAutoScrollLabel */,
-				11D89C3A20FF273B000E5164 /* YJAutoScrollLabelTests */,
-				11D89C4520FF273B000E5164 /* YJAutoScrollLabelUITests */,
+				11D89C2220FF2738000E5164 /* TMAutoScrollLabel */,
+				11D89C3A20FF273B000E5164 /* TMAutoScrollLabelTests */,
+				11D89C4520FF273B000E5164 /* TMAutoScrollLabelUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11D89C2B20FF2738000E5164 /* ViewController.m in Sources */,
-				11D89C5B20FF277B000E5164 /* YJAutoScrollLabel.m in Sources */,
+				11D89C5B20FF277B000E5164 /* TMAutoScrollLabel.m in Sources */,
 				11D89C3620FF273B000E5164 /* main.m in Sources */,
 				11D89C2820FF2738000E5164 /* AppDelegate.m in Sources */,
 			);
@@ -286,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D89C4020FF273B000E5164 /* YJAutoScrollLabelTests.m in Sources */,
+				11D89C4020FF273B000E5164 /* TMAutoScrollLabelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D89C4B20FF273B000E5164 /* YJAutoScrollLabelUITests.m in Sources */,
+				11D89C4B20FF273B000E5164 /* TMAutoScrollLabelUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +303,12 @@
 /* Begin PBXTargetDependency section */
 		11D89C3D20FF273B000E5164 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 11D89C2220FF2738000E5164 /* YJAutoScrollLabel */;
+			target = 11D89C2220FF2738000E5164 /* TMAutoScrollLabel */;
 			targetProxy = 11D89C3C20FF273B000E5164 /* PBXContainerItemProxy */;
 		};
 		11D89C4820FF273B000E5164 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 11D89C2220FF2738000E5164 /* YJAutoScrollLabel */;
+			target = 11D89C2220FF2738000E5164 /* TMAutoScrollLabel */;
 			targetProxy = 11D89C4720FF273B000E5164 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,8 +449,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4ZAJA8P7J6;
-				INFOPLIST_FILE = YJAutoScrollLabel/Info.plist;
+				DEVELOPMENT_TEAM = X4634493CA;
+				INFOPLIST_FILE = TMAutoScrollLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,8 +468,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4ZAJA8P7J6;
-				INFOPLIST_FILE = YJAutoScrollLabel/Info.plist;
+				DEVELOPMENT_TEAM = X4634493CA;
+				INFOPLIST_FILE = TMAutoScrollLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,7 +496,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fedf.YJAutoScrollLabelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJAutoScrollLabel.app/YJAutoScrollLabel";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMAutoScrollLabel.app/TMAutoScrollLabel";
 			};
 			name = Debug;
 		};
@@ -513,7 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fedf.YJAutoScrollLabelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJAutoScrollLabel.app/YJAutoScrollLabel";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMAutoScrollLabel.app/TMAutoScrollLabel";
 			};
 			name = Release;
 		};
@@ -556,7 +558,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11D89C1E20FF2738000E5164 /* Build configuration list for PBXProject "YJAutoScrollLabel" */ = {
+		11D89C1E20FF2738000E5164 /* Build configuration list for PBXProject "TMAutoScrollLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11D89C4D20FF273B000E5164 /* Debug */,
@@ -565,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11D89C4F20FF273B000E5164 /* Build configuration list for PBXNativeTarget "YJAutoScrollLabel" */ = {
+		11D89C4F20FF273B000E5164 /* Build configuration list for PBXNativeTarget "TMAutoScrollLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11D89C5020FF273B000E5164 /* Debug */,
@@ -574,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11D89C5220FF273B000E5164 /* Build configuration list for PBXNativeTarget "YJAutoScrollLabelTests" */ = {
+		11D89C5220FF273B000E5164 /* Build configuration list for PBXNativeTarget "TMAutoScrollLabelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11D89C5320FF273B000E5164 /* Debug */,
@@ -583,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11D89C5520FF273B000E5164 /* Build configuration list for PBXNativeTarget "YJAutoScrollLabelUITests" */ = {
+		11D89C5520FF273B000E5164 /* Build configuration list for PBXNativeTarget "TMAutoScrollLabelUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11D89C5620FF273B000E5164 /* Debug */,

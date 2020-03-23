@@ -1,17 +1,17 @@
 //
-//  YJAutoScrollLabel.m
-//  YJAutoScrollLabel
+//  TMAutoScrollLabel.m
+//  TMAutoScrollLabel
 //
 //  Created by edward lannister on 2018/7/18.
 //  Copyright © 2018年 edward lannister. All rights reserved.
 //
 
-#import "YJAutoScrollLabel.h"
+#import "TMAutoScrollLabel.h"
 
 #define kWidth  self.bounds.size.width
 #define kHeight  self.bounds.size.height
 
-@interface YJAutoScrollLabel ()
+@interface TMAutoScrollLabel ()
 {
     NSInteger index;
 }
@@ -26,7 +26,7 @@
 
 @end
 
-@implementation YJAutoScrollLabel
+@implementation TMAutoScrollLabel
 
 - (instancetype)initWithFrame:(CGRect)frame titles:(NSArray *)titles {
     self = [super initWithFrame:frame];
@@ -67,7 +67,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     self.oneLabel.frame = CGRectMake(_margen, 0, kWidth - _margen, kHeight);
-    CGFloat labelY = self.directionType == YJScrollDirectionTypeTop ? kHeight : -kHeight;
+    CGFloat labelY = self.directionType == TMScrollDirectionTypeTop ? kHeight : -kHeight;
     self.twoLabel.frame = CGRectMake(_margen, labelY, kWidth - _margen, kHeight);
 }
 
@@ -109,7 +109,7 @@
     hiddenLabel.text = self.adTitles[index];
     
     //动画切换
-    CGFloat labelY = self.directionType == YJScrollDirectionTypeTop ? -kHeight : kHeight;
+    CGFloat labelY = self.directionType == TMScrollDirectionTypeTop ? -kHeight : kHeight;
     [UIView animateWithDuration:1 animations:^{
         currentLabel.frame = CGRectMake(_margen, labelY, kWidth - _margen, kHeight);
         hiddenLabel.frame = CGRectMake(_margen, 0, kWidth - _margen, kHeight);
